@@ -49,6 +49,12 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 	}
+	@media (max-width: 450px) {
+		#landing-page-wrapper {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
 	h1 {
 		font-weight: 300;
 		font-size: 36px;
@@ -58,6 +64,10 @@
 	p {
 		margin-bottom: 20px;
 	}
+	svg#lac-logo {
+		width: 200px;
+		max-width: 100%;
+	}
 </style>
 <html>
 	<body>
@@ -66,17 +76,16 @@
 			<p>
 				We aspire to be an organization of support, inspiration and community for people doing creative work in the greater Lansing area. If you are interested in joining our Slack team, please <a href="mailto:info@lansingareacreatives.com"> introduce yourself</a>. We'd love to hear what you do and what you'd like to get out from a group like this.
 			</p>
-			<svg version="1.1" id="lac-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-				 width="297.6025391px" height="112.4204102px" viewBox="0 0 297.6025391 112.4204102"
-				 style="enable-background:new 0 0 297.6025391 112.4204102;" xml:space="preserve">
-					<path style="fill:#291D31;" d="M297.6025391,20.0410156l-20.9853516,24.8994141
+			<svg id="lac-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="297.6025391px" height="112.4204102px" viewBox="0 0 297.6025391 112.4204102">
+				<path style="fill:#291D31;" d="M297.6025391,20.0410156l-20.9853516,24.8994141
 				c-6.5712891-8.9248047-16.4404297-14.7255859-24.8916016-14.7255859c-13.1523438,0-22.7070313,10.4926758-22.7070313,25.0517578
 				c0,14.7260742,9.5546875,25.3706055,22.7070313,25.3706055c7.828125,0,17.6884766-4.8574219,24.8916016-12.5322266
 				l20.9853516,22.3876953c-12.2138672,13.3105469-30.8476563,21.9277344-47.7578125,21.9277344
 				c-33.6650391,0-58.0917969-23.9550781-58.0917969-56.6816406C191.7529297,23.4833984,216.8046875,0,251.2539063,0
 				C268.0048828,0,286.3261719,7.8271484,297.6025391,20.0410156z"/>
-					<path style="fill:#291D31;" d="M74.5244141,80.637207v30.2158203H0V1.0957031h36.328125V80.637207H74.5244141z"/>
-					<path style="fill:#291D31;" d="M122.7412109,109.0424805v1.8105469h-6.0039063v-1.8105469
+				
+				<path style="fill:#291D31;" d="M74.5244141,80.637207v30.2158203H0V1.0957031h36.328125V80.637207H74.5244141z"/>
+				<path style="fill:#291D31;" d="M122.7412109,109.0424805v1.8105469h-6.0039063v-1.8105469
 				c0-6.7822266,0-12.2646484,3.0019531-12.2646484S122.7412109,102.2602539,122.7412109,109.0424805z M112.1660156,110.8530273
 				H75.2001953L121.5498047,1.0957031h37.2587891l44.6298828,109.7573242h-35.5263672v-2.7158203
 				c-0.3955078-26.9003906-12.1435547-30.6875-27.1552734-30.9414063H139.1875
