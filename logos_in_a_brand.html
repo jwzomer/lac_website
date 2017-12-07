@@ -41,7 +41,12 @@
 		font-size: 18px;
 		font-weight: 400;
 		line-height: 22px;
-		background: #F5F5F5;
+	}
+	.container {
+		width: 600px;
+		margin: 0px auto;
+		padding: 80px 30px 90px;
+		max-width: 100%;
 	}
 	h1 {
 		font-family: 'Barlow Semi Condensed', sans-serif;
@@ -51,22 +56,45 @@
 		margin-bottom: 20px;
 		margin-top: 0px;
 		letter-spacing: -1.5px;
+		line-height: 40px;
 	}
 	p {
 		margin-top: 0px;
 		margin-bottom: 15px;
 	}
+	img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+		margin: 70px auto 10px;
+	}
 	a {
-
+		padding-left: 3px;
+		padding-right: 3px;
+		margin-left: -3px;
+		margin-right: -3px;
+		/*padding-bottom: 4px;*/
+		margin-bottom: -4px;
+		display: inline-block;
+		text-decoration: none;
+		background: rgba(0, 156, 204, 0); 
+		height: 0px;
+		color: rgba(0, 156, 204, 1);
+		-webkit-transition: height 400ms cubic-bezier(1.000, 0.010, 0.0, 1.000), color 300ms cubic-bezier(1.000, 0.010, 0.0, 1.000);
+		-o-transition: height 400ms cubic-bezier(1.000, 0.010, 0.0, 1.000), color 300ms cubic-bezier(1.000, 0.010, 0.0, 1.000);
+		transition: height 400ms cubic-bezier(1.000, 0.010, 0.0, 1.000), color 300ms cubic-bezier(1.000, 0.010, 0.0, 1.000);
 	}
 	a:hover, a:active {
-
+		height: 23px;
+		background: rgba(0, 156, 204, 1);
+		color: white;
 	}
 </style>
 <html>
 	<body>
 		<div class="container">
 			<h1>Thank you for viewing my identity work for Vieth Consulting and it's services</h1>
+			<a style="margin-top: 20px;" href="logo.html">You can see more of my logo work here</a>
 			<img src="vc-logo.svg">
 			<label>Vieth Consulting is the parent brand. Their flagship service, MemberLeap is a member management system that allows organizations to do things like track membership, event registration and manage the organization's website.</label>
 			<img src="ml-logo.svg">
@@ -79,7 +107,6 @@
 			<label>Where Vieth Consulting focuses on mostly associations and other organizations for its customers, Seven Islands Web is a branch of the company that creates custom and template based websites for commercial clients.</label>
 			<img src="psty-logo.svg">
 			<label>Pastry Chefs of America is a fictional organization created as an identity for a sandbox environment that allows perspective clients to try out MemberLeap's functionality.</label>
-			<a href="logo.html">You can see more of my logo work here</a>
 		</div>
 	</body>
 </html>
